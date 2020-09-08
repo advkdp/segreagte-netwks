@@ -12,12 +12,12 @@ services:
       - app2_net
       
   app1:
-    image: https:latest
+    image: httpd:latest
     networks:
       - app1_net
 
   app2:
-    image: https:latest
+    image: httpd:latest
     networks:
       - app2_net
 
